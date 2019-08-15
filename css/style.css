@@ -2,8 +2,9 @@
     margin : 0; 
     padding: 0; 
     box-sizing: border-box;
-background-color: lightslategray; 
+background-color: black; 
 display: grid;
+color: white;
 
 }
 
@@ -18,7 +19,16 @@ display: grid;
 .tabs{
     display: flex; 
     flex-direction: row; 
-    justify-content: center;
+    justify-content: space-around;
+    /* align-items: stretch; */
+    flex-grow: 1;
     
+}
+
+.tabs li {
+    list-style: none;
+}
+.tabs li a {
+    text-decoration: none;
 }
 
