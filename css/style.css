@@ -3,11 +3,22 @@
     padding: 0; 
     box-sizing: border-box;
 background-color: lightslategray; 
+display: grid;
 
 }
 
 .main-header {
     color: orange;
     text-align: center;
+    font-size: 3rem;
      
 }
+
+
+.tabs{
+    display: flex; 
+    flex-direction: row; 
+    justify-content: center;
+    
+}
+
