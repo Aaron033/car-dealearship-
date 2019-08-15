@@ -2,9 +2,12 @@
     margin : 0; 
     padding: 0; 
     box-sizing: border-box;
+background-color: lightslategray; 
 
 }
 
 .main-header {
-    color: orange; 
+    color: orange;
+    text-align: center;
+     
 }
