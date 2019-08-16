@@ -7,16 +7,26 @@ background-color: black;
 color: white;
 font-family: 'Noto Serif', serif;
 display: grid;
-grid-template-areas: 
+grid-template-areas:
+ " h h h"
+ "a m m"
+ "a m m"
+ "ca ca ca"
+ "f  f f"
+               
 
 }
 /* Header code ***************************************************    */
+header{ 
+    grid-area: h;
+}
 .main-header {
     color: orange;
     text-align: center;
     font-size: 3rem;
      
 }
+
 .main-menu   li  a{
     color: lightgray;
     font-weight: bold;
@@ -40,7 +50,26 @@ title {
     text-decoration: none;
 }
 /* aside code ***************************************************    */
+aside {
+    grid-area: a;
+}
 
 
 
 /* main (section) code ***************************************************    */
+main {
+    grid-area: m; 
+
+}
+
+/* category (section) code ***************************************************    */
+.category {
+    grid-area: ca; 
+
+}
+
+/* footer code ***************************************************    */
+
+footer {
+    grid-area: f;
+}
