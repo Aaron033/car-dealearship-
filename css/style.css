@@ -14,7 +14,10 @@ color: white;
     font-size: 3rem;
      
 }
-
+.main-menu   li  a{
+    color: lightgray;
+    font-weight: bold;
+}
 title {
     visibility: hidden;
 }
