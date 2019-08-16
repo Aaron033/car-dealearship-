@@ -20,27 +20,35 @@ grid-template-areas:
 header{ 
     grid-area: h;
 }
-.main-header {
-    color: orange;
-    text-align: center;
-    font-size: 3rem;
-     
-}
-
 .main-menu   li  a{
     color: lightgray;
     font-weight: bold;
   text-transform: uppercase; 
   font-size: 1.1rem;
+  display: grid;
+  grid-template-areas: 
+  "he he he"
+  "li li li"
 }
+.main-header {
+    color: orange;
+    /* text-align: center; */
+    font-size: 3rem;
+    grid-area: he; 
+     
+}
+
+
 title {
     visibility: hidden;
 }
+
 .tabs{
-    display: flex; 
+    /* display: flex; 
     flex-direction: row; 
-    justify-content: space-around;  
-    
+    justify-content: space-around;   */
+    grid-area: li;
+
 }
 
 .tabs li {
@@ -49,6 +57,7 @@ title {
 .tabs li a {
     text-decoration: none;
 }
+
 /* aside code ***************************************************    */
 aside {
     grid-area: a;
@@ -72,4 +81,5 @@ main {
 
 footer {
     grid-area: f;
+    bottom: 0;
 }
