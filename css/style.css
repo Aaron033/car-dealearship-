@@ -15,7 +15,9 @@ color: white;
      
 }
 
-
+title {
+    visibility: hidden;
+}
 .tabs{
     display: flex; 
     flex-direction: row; 
