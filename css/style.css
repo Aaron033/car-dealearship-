@@ -22,24 +22,30 @@ header{
     display: grid;
   grid-template-areas: 
   "he he he"
-  "li li li"
+  "li li li";
+  justify-content: center;
+}
+.main-header {
+    color: orange;
+    font-size: 3rem;
+    grid-area: he; 
+
+     
 }
 .main-menu   li  a{
     color: lightgray;
     font-weight: bold;
   text-transform: uppercase; 
   font-size: 1.1rem;
+  grid-area: li;
+  
   
 }
 
-.main-header {
-    color: orange;
-    /* text-align: center; */
-    font-size: 3rem;
-    grid-area: he; 
-     
-}
 
+head{
+    width: 0;
+}
 
 title {
     visibility: hidden;
@@ -49,15 +55,18 @@ title {
     /* display: flex; 
     flex-direction: row; 
     justify-content: space-around;   */
-    grid-area: li;
+
+
 
 }
 
 .tabs li {
     list-style: none;
+    
 }
 .tabs li a {
     text-decoration: none;
+
 }
 
 /* aside code ***************************************************    */
