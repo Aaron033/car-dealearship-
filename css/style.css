@@ -1,3 +1,4 @@
+/* general code  ***************************************************    */
 *,body { 
     margin : 0; 
     padding: 0; 
@@ -7,7 +8,7 @@ display: grid;
 color: white;
 
 }
-
+/* Header code ***************************************************    */
 .main-header {
     color: orange;
     text-align: center;
@@ -34,4 +35,8 @@ title {
 .tabs li a {
     text-decoration: none;
 }
+/* aside code ***************************************************    */
 
+
+
+/* main (section) code ***************************************************    */
