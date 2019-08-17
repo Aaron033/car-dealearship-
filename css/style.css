@@ -45,6 +45,16 @@ text-decoration: none;
 
 }
 
+.icons{
+    flex-direction: row;
+    justify-content: center;
+}
+.icons img {
+    height: 30px;
+    width: 30px;
+    padding: 2px;
+}
+
 /* aside code ***************************************************    */
 aside {
     flex-grow: 1;
@@ -70,13 +80,14 @@ main img {
 
 }
 
-.icons img {
-    width: 20px;
-}
 
 /* footer code ***************************************************    */
 
 footer {
+  
   bottom: 0;
  
+}
+footer h4 { 
+    text-align: center;
 }
