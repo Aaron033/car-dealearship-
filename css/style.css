@@ -75,12 +75,18 @@ main {
     flex-grow: 1;
     display: flex; 
     flex-direction: row; 
+    justify-content: space-around;
 }
 
 main img {
     width: 100px;
 }
+main > div {
+    background-color: lightgray;
+    padding: 10px;
+    margin: 10px;
 
+}
 /* category (section) code ***************************************************    */
 .category {
 
