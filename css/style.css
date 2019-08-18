@@ -71,15 +71,16 @@ aside {
 
 /* main (section) code ***************************************************    */
 main {
-
+/* height: 100%; */
     flex-grow: 1;
     display: flex; 
     flex-direction: row; 
     justify-content: space-around;
+    /* flex-wrap: wrap; */
 }
 
 main img {
-    width: 100px;
+    width: 150px;
 }
 main > div {
     background-color: lightgray;
