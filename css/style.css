@@ -73,10 +73,13 @@ text-decoration: none;
 aside {
     flex-grow: 1;
     margin: 5px;
-    width: auto;
+
 }
 
-
+aside img { 
+    width: 100%;
+    height: auto;
+}
 
 /* main (section) code ***************************************************    */
 main {
