@@ -75,7 +75,7 @@ main {
     flex-grow: 1;
     display: flex; 
     flex-direction: row; 
-    justify-content: space-around;
+    justify-content: space-evenly;
     /* flex-wrap: wrap; */
 }
 
@@ -109,4 +109,8 @@ footer h4 {
 .copyright { 
     height: 100px;
     background-color: lightgrey ; 
+}
+.legal { 
+    text-align: center; 
+
 }
