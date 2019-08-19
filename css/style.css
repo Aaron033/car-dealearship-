@@ -23,7 +23,9 @@ body{
 }
 
 /* Header code ***************************************************    */
-
+header{
+    margin-bottom: 10px;
+}
 .logo img {
 width: 200px; 
 height: 200px;
@@ -90,6 +92,9 @@ main {
     justify-content: space-evenly;
 
 
+
+
+
 }
 
 main img {
@@ -97,9 +102,6 @@ main img {
 }
 main > div {
     background-color: lightgray;
-    padding: 10px;
-    margin: 10px;
-    flex-shrink: 0;
 
 }
 /* category (section) code ***************************************************    */
