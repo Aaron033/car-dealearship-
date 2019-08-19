@@ -103,7 +103,7 @@ main > div {
 }
 /* category (section) code ***************************************************    */
 .category {
-
+    flex-grow: 1;
 
 }
 
