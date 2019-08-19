@@ -89,7 +89,7 @@ main {
     flex-direction: row; 
     justify-content: space-evenly;
 
-margin: 0 auto;
+
 }
 
 main img {
@@ -99,7 +99,7 @@ main > div {
     background-color: lightgray;
     padding: 10px;
     margin: 10px;
-    
+    flex-shrink: 0;
 
 }
 /* category (section) code ***************************************************    */
