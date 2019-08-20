@@ -90,7 +90,7 @@ main {
     display: flex; 
     flex-direction: row; 
     justify-content: space-evenly;
-flex-wrap: wrap;
+
 
 }
 
@@ -99,7 +99,9 @@ main img {
 }
 main > div {
     background-color: lightgray;
-
+    padding: 0 2% 0 2%;   
+width: 16%;
+    
 }
 /* category (section) code ***************************************************    */
 .category {
@@ -111,7 +113,7 @@ height: 100%;
 /* footer code ***************************************************    */
 
 footer {
-  h
+  
 
  
 }
