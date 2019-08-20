@@ -75,6 +75,7 @@ text-decoration: none;
 aside {
     flex-grow: 1;
     margin: 5px;
+    width: 100%;
 
 }
 
@@ -96,6 +97,8 @@ main img {
 }
 main > div {
     background-color:#e9e9e9;
+    margin: 3px;
+    min-height: 150px;
  
    
 width: 100%;
