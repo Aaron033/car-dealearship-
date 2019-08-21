@@ -109,11 +109,22 @@ main  p {
     margin: 2px;
 }
 
+.disp-0{
+    grid-area: ze;  
+  
+  }
 /* category (section) code ***************************************************    */
 
-.disp-0{
-  grid-area: ze;  
+.category{
+    margin-top: 20px;
+    display: flex; 
+    flex-direction: row;
 
+
+}
+.category  img{
+    max-width: 100%;
+  height: auto;
 }
 
 
