@@ -73,7 +73,7 @@ text-decoration: none;
 
 /* aside code ***************************************************    */
 aside {
-    flex-grow: 1;
+
     margin: 5px;
     width: 100%;
 
@@ -89,7 +89,7 @@ main {
 
 display: grid; 
 grid-template-areas: "ze on tw th fr";
-height: 100%;
+
 }
 
 main img {
@@ -110,21 +110,16 @@ main  p {
 }
 
 /* category (section) code ***************************************************    */
-.category {
-height: 100%;
+
+.disp-0{
+  grid-area: ze;  
 
 }
-.disp-0{
-  grid-area: ze;    
-}
+
 
 /* footer code ***************************************************    */
 
-footer {
-  
 
- 
-}
 footer h4 { 
     text-align: center;
 }
