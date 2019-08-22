@@ -13,16 +13,22 @@ margin: 0 auto;
 }
 
 .fill {
-    background-color:lightcyan;
+   background-image: url('../images/usFlag.jpg');
     display: flex;
     justify-content: center
 }
 .fill img {
     max-width: 100%;
   height: auto;
-;
- 
-  
+}
+
+@media screen and (max-width: 950px){
+    .fill  {
+display: block;
+margin: 0 auto;
+  width: 100%;
+    }
+
 }
 /*main code  ***** ***** ***** ***** *****  *****  */
 main {
