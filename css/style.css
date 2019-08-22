@@ -5,12 +5,14 @@
 }
 
 
+.container {
+    width: 90%;
+    background-color: lightcoral;
+margin: 0 auto;
+    
+}
 
 
-/* 
-.category, .container , main, header{
-    position: absolute;
-} */
 
 
 
