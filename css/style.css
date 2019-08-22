@@ -4,6 +4,20 @@
     box-sizing: border-box;
 }
 
+/*Header  ***** ***** ***** ***** *****  *****  */
+.main-menu {
+    display: flex;
+justify-content: space-around;
+flex-direction: row;
+margin: 30px;
+}
+
+.main-menu  li {
+    list-style: none;
+}
+.main-menu  li a {
+    text-decoration: none;
+}
 /*container  ***** ***** ***** ***** *****  *****  */
 .container {
     width: 90%;
