@@ -14,12 +14,28 @@
 
 
 
+.category{
+    display: grid;
+    grid-template-areas: "on tw tr fr fi"
+}
 
+.cat1 {
+    grid-area: on;
+}
+
+
+
+
+
+/*Footer code  ***** ***** ***** ***** *****  *****  */
 footer{
+
     position: relative; 
     bottom: 0; 
     width:100%; 
     font-family: Raleway;  
+    
+
 } 
 
 footer  img { 
