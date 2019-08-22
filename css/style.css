@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-
+/*container  ***** ***** ***** ***** *****  *****  */
 .container {
     width: 90%;
     background-color: lightcoral;
@@ -12,16 +12,32 @@ margin: 0 auto;
     
 }
 
-
-.filters img {
+.fill {
+    background-color:lightcyan;
+    display: flex;
+    justify-content: center
+}
+.fill img {
     max-width: 100%;
   height: auto;
+;
+ 
+  
 }
+/*main code  ***** ***** ***** ***** *****  *****  */
+main {
+    display: grid; 
 
-
+}
+/*Category  ***** ***** ***** ***** *****  *****  */
 .category{
     display: grid;
     grid-template-areas: "on tw tr fr fi"
+}
+
+.category img {
+    max-width: 100%;
+    height: auto;
 }
 
 .cat1 {
