@@ -19,6 +19,10 @@ justify-content: space-around;
 flex-direction: row;
 margin: 30px;
 }
+.logo img {
+display: block;
+margin: 0 auto;
+}
 
 .main-menu  li {
     list-style: none;
