@@ -13,6 +13,9 @@
 }
 
 /*Header  ***** ***** ***** ***** *****  *****  */
+header h1 {
+    text-align: center;
+}
 .main-menu {
     display: flex;
 justify-content: space-around;
