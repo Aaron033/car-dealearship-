@@ -71,8 +71,11 @@ main {
     display: grid;
     grid-template-areas: "on tw tr fr fi"
 }
-
+.category div {
+    margin: 10px;
+}
 .category img {
+    min-width: 200px;
     max-width: 100%;
     height: auto;
 }
