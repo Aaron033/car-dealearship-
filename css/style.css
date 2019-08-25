@@ -37,7 +37,7 @@ margin: 0 auto;
 }
 /*container  ***** ***** ***** ***** *****  *****  */
 .container {
-    width: 90%;
+    width: 80%;
     background-color: lightcoral;
 margin: 0 auto;
     
@@ -68,20 +68,27 @@ main {
 }
 /*Category  ***** ***** ***** ***** *****  *****  */
 .category{
-    display: grid;
-    grid-template-areas: "on tw tr fr fi"
+    width: 100%;
+    height: auto;
+
+    /* display: grid; */
+    /* grid-template-areas: "on tw tr fr fi" */
 }
 .category div {
     margin: 5px;
 }
 .cat1, .cat2, .cat3, .cat4 {
-    width: 25%;
+    width: 20%;
 }
 .category img {
-    min-width: 200px;
-    max-width: 100%;
+    /* min-width: 200px;
+    max-width: 100%; */
+
+    width: 250px; 
+    height: 150px; 
+    margin: 20px;
     /* max-width: 300px; */
-    height: auto;
+    /* height: auto; */
 }
 
 .cat1 {
