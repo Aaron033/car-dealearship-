@@ -42,11 +42,13 @@ margin: 0 auto;
 margin: 0 auto;
     
 }
+/*aside code  ***** ***** ***** ***** *****  *****  */
 
 .fill {
    background-image: url('../images/usFlag.jpg');
     display: flex;
-    justify-content: center
+    justify-content: center;
+    margin-bottom: 20px;
 }
 .fill img {
     max-width: 100%;
@@ -65,8 +67,11 @@ margin: 0 auto;
 main {
     display: flex;
     flex-direction: row; 
-}
 
+}
+.disp-0,.disp-1,.disp-2,.disp-3, .disp-4 {
+    margin: 5px;
+}
 
 main img {
     max-width: 100%;
