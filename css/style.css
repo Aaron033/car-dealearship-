@@ -73,7 +73,7 @@ main {
     height: auto;
  display: flex;
  flex-direction: row; 
- justify-content: space-around;
+ justify-content: center;
  flex-flow: wrap;
     /* display: grid; */
     /* grid-template-areas: "on tw tr fr fi" */
