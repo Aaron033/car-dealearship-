@@ -67,6 +67,8 @@ margin: 0 auto;
 main {
     display: flex;
     flex-direction: row; 
+    overflow: auto; 
+    overflow-y: hidden;
 
 }
 
@@ -84,12 +86,12 @@ text-align: center;
 font-size: 16px;
 }
 
-.disp-0,.disp-1,.disp-2,.disp-3, .disp-4 {
+.disp-0,.disp-1,.disp-2,.disp-3, .disp-4,  .disp-5 {
     margin: 5px;
 }
 
 main img {
-    max-width: 100%;
+    max-width: 250px;
     height: auto;
 }
 /*Category  ***** ***** ***** ***** *****  *****  */
