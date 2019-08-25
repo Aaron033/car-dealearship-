@@ -88,7 +88,8 @@ main {
 }
 .c1,.c2,.c3,.c4 {
     position: absolute;
-    background: rbga()
+ width: 100%;
+ text-align: center;
 
 
     top: 10%;
