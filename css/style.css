@@ -68,13 +68,12 @@ main {
 }
 /*Category  ***** ***** ***** ***** *****  *****  */
 .category{
-
+    position: relative;
     height: auto;
  display: flex;
  flex-direction: row; 
  justify-content: center;
  flex-flow: wrap;
-    
 }
 
 
@@ -83,6 +82,17 @@ main {
     height: 150px; 
     margin: 10px;
     
+}
+.cat1, .cat2, .cat3, .cat4 {
+    position: relative;
+}
+.c1,.c2,.c3,.c4 {
+    position: absolute;
+    background: rbga()
+
+
+    top: 10%;
+
 }
 
 @media screen and (max-width: 1200px){
