@@ -1,4 +1,4 @@
-/*General code ***** ***** ***** ***** *****  *****  */
+/*General code ***** ***** ***** ***** ***** *****  */
 @font-face {
     font-family: 'aaron'; 
     src: url(../fonts/aaron.woff2);
@@ -56,7 +56,7 @@ aside{
 .fill {
  
     display: flex;
-    /* flex-direction: row;  not used */
+  
     justify-content: center;
     margin-bottom: 20px;
 }
@@ -65,10 +65,13 @@ aside{
     max-width: 100%;
   height: auto;
 }
+ .fill .im2 {
+     max-width: 1150px;
+     height: 330px;
+ }
 
 
-
-
+  /* Slide show  */
 
 
 
