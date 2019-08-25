@@ -65,13 +65,17 @@ margin: 0 auto;
 }
 /*main code  ***** ***** ***** ***** *****  *****  */
 main {
+   
+    display: flex;
+    flex-direction: row; 
+
+}
+.subcontainer {
     display: flex;
     flex-direction: row; 
     overflow: auto; 
     overflow-y: hidden;
-
 }
-
 .disp-0 {
     max-width: 100%;
     height: auto;
