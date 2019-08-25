@@ -48,19 +48,25 @@ margin: 0 auto;
 
 .fill {
 
-width: 100%;
-   /* background-image: url('../images/usFlag.jpg'); */
     display: flex;
-    flex-direction: row;
-    /* justify-content: center; */
+    /* flex-direction: row; */
+    justify-content: center;
     margin-bottom: 20px;
 }
-.fill img {
+.fill img , .fill2  img {
     max-width: 100%;
   height: auto;
-  margin: 3px;
-
 }
+
+.fill2{
+    display: none;
+}
+
+
+
+
+
+  
 
 
 @media screen and (max-width: 950px){
@@ -97,7 +103,7 @@ padding: 10px 20px;
 text-align: center;
 font-size: 12px;
 margin: 4px 2px;
-opacity: 0.6;
+opacity: 0.8;
 transition: 0.3s;
 display: inline-block;
 text-decoration: none;
