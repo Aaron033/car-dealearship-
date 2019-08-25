@@ -63,8 +63,8 @@ margin: 0 auto;
 }
 /*main code  ***** ***** ***** ***** *****  *****  */
 main {
-    display: grid; 
-
+    display: flex;
+    flex-direction: row; 
 }
 /*Category  ***** ***** ***** ***** *****  *****  */
 .category{
