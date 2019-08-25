@@ -60,6 +60,7 @@ aside{
     justify-content: center;
     margin-bottom: 20px;
 }
+  /* Slide show  */
 
 .fill img  {
     max-width: 100%;
@@ -71,19 +72,18 @@ aside{
  }
 
 
-  /* Slide show  */
 
 
-
-  
-
-
-@media screen and (max-width: 950px){
+@media screen and (max-width: 1436px){
     .fill  {
 display: block;
 margin: 0 auto;
   width: 100%;
     }
+    .fill .im2 {
+        margin: 0 auto;
+  width: 100%;
+  height: auto;
 
 }
 /*main code  ***** ***** ***** ***** *****  *****  */
