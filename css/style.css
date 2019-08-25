@@ -22,6 +22,8 @@ justify-content: space-around;
 flex-direction: row;
 margin: 30px;
 }
+
+
 .logo img {
 display: block;
 margin: 0 auto;
@@ -45,15 +47,21 @@ margin: 0 auto;
 /*aside code  ***** ***** ***** ***** *****  *****  */
 
 .fill {
-   background-image: url('../images/usFlag.jpg');
+
+width: 100%;
+   /* background-image: url('../images/usFlag.jpg'); */
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    /* justify-content: center; */
     margin-bottom: 20px;
 }
 .fill img {
     max-width: 100%;
   height: auto;
+  margin: 3px;
+
 }
+
 
 @media screen and (max-width: 950px){
     .fill  {
@@ -94,11 +102,12 @@ transition: 0.3s;
 display: inline-block;
 text-decoration: none;
 cursor: pointer;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .disp-0 button:hover {opacity: 1}
 
-.disp-0,.disp-1,.disp-2,.disp-3, .disp-4,  .disp-5 {
+.disp-0,.disp-1,.disp-2,.disp-3, .disp-4,  .disp-5, .disp-6 {
     margin: 5px;
 }
 
