@@ -85,17 +85,25 @@ main {
 background-color: #f4511e; 
 border: none; 
 color: white; 
-padding: 16px 32px;
+padding: 10px 20px;
 text-align: center;
-font-size: 16px;
+font-size: 12px;
+margin: 4px 2px;
+opacity: 0.6;
+transition: 0.3s;
+display: inline-block;
+text-decoration: none;
+cursor: pointer;
 }
+
+.disp-0 button:hover {opacity: 1}
 
 .disp-0,.disp-1,.disp-2,.disp-3, .disp-4,  .disp-5 {
     margin: 5px;
 }
 
 main img {
-    /* min-width: 100px; */
+   
     max-width: 250px;
     height: auto;
 }
@@ -123,8 +131,6 @@ main img {
     position: absolute;
  width: 100%;
  text-align: center;
-
-
     top: 10%;
 
 }
