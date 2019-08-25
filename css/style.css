@@ -66,6 +66,12 @@ main {
     display: flex;
     flex-direction: row; 
 }
+
+
+main img {
+    max-width: 100%;
+    height: auto;
+}
 /*Category  ***** ***** ***** ***** *****  *****  */
 .category{
     position: relative;
