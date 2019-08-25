@@ -68,15 +68,13 @@ main {
 }
 /*Category  ***** ***** ***** ***** *****  *****  */
 .category{
-    /* width: 100%; */
-    /* margin: 0 auto; */
+
     height: auto;
  display: flex;
  flex-direction: row; 
  justify-content: center;
  flex-flow: wrap;
-    /* display: grid; */
-    /* grid-template-areas: "on tw tr fr fi" */
+    
 }
 
 
