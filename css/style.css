@@ -85,7 +85,7 @@ margin: 0 auto;
   width: 100%;
   height: auto;
 
-}
+}}
 /*main code  ***** ***** ***** ***** *****  *****  */
 main {
    
@@ -173,7 +173,7 @@ main img {
         width: 90%;
     }}
 
-    @media screen and (max-width: 320px){
+ @media screen and (max-width: 320px){
         .cat1, .cat2, .cat3, .cat4 {
             width: 90%;
             margin: 0;
