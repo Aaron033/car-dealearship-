@@ -46,13 +46,21 @@ margin: 0 auto;
 }
 /*aside code  ***** ***** ***** ***** *****  *****  */
 
-.fill {
+aside{
+    position: relative;
 
+}
+
+
+
+.fill {
+ 
     display: flex;
-    /* flex-direction: row; */
+    /* flex-direction: row;  not used */
     justify-content: center;
     margin-bottom: 20px;
 }
+
 .fill img , .fill2  img {
     max-width: 100%;
   height: auto;
