@@ -107,10 +107,18 @@ main {
         width: 90%;
     }}
 
-    @media screen and (max-width: 600px){
+    @media screen and (max-width: 320px){
         .cat1, .cat2, .cat3, .cat4 {
             width: 90%;
+            margin: 0;
         }
+
+.category img {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+
+}
 
     
 }
@@ -132,6 +140,6 @@ footer{
 } 
 
 footer  img { 
-width: 50px !important;
+width: 20px !important;
 }
 
