@@ -17,10 +17,12 @@ header h1 {
     text-align: center;
 }
 .main-menu {
+    background-color: #202E6C;
     display: flex;
 justify-content: space-around;
 flex-direction: row;
-margin: 30px;
+
+padding: 10px;
 }
 
 
@@ -29,6 +31,7 @@ display: block;
 margin: 0 auto;
 }
 
+
 .main-menu  li {
     list-style: none;
 }
@@ -36,11 +39,13 @@ margin: 0 auto;
     text-decoration: none;
     font-weight: 600;
     text-transform: uppercase;
+    color: #fff;
+    
 }
 /*container  ***** ***** ***** ***** *****  *****  */
 .container {
     width: 80%;
-    background-color: lightcoral;
+    background-color:#F4F3F5;
 margin: 0 auto;
     
 }
@@ -59,6 +64,7 @@ aside{
   
     justify-content: center;
     margin-bottom: 20px;
+    margin-top: 10px !important;
 }
   /* Slide show  */
 
@@ -93,6 +99,10 @@ main {
     flex-direction: row; 
 
 }
+
+/* main > div {
+    background-color: rgba(192,193,194, 0.8)
+} */
 .subcontainer {
     display: flex;
     flex-direction: row; 
@@ -100,9 +110,10 @@ main {
     overflow-y: hidden;
 }
 .disp-0 {
-    max-width: 100%;
+  width: inherit;
     height: auto;
-
+    padding: 30px;
+text-transform: uppercase;
 }
 .disp-0 button {
 background-color: #f4511e; 
@@ -124,6 +135,7 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 .disp-0,.disp-1,.disp-2,.disp-3, .disp-4,  .disp-5, .disp-6 {
     margin: 5px;
+    background-color: #E9E9E9;
 }
 
 .price {
@@ -221,16 +233,24 @@ main img {
 
 /*Footer code  ***** ***** ***** ***** *****  *****  */
 footer{
-
+    background-color: #202E6C;
     position: relative; 
     bottom: 0; 
     width:100%; 
     font-family: Raleway;  
-    
+    color: #fff;
 
 } 
 
 footer  img { 
 width: 20px !important;
+}
+
+.icons {
+    text-align: center;
+}
+.legal {
+    font-size: 10px;
+    text-align: center;
 }
 
