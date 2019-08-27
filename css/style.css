@@ -15,6 +15,11 @@
 /*Header  ***** ***** ***** ***** *****  *****  */
 header h1 {
     text-align: center;
+    color: #202D6D;
+
+}
+.main-header-title{
+    background-color: #F7F7F4;
 }
 .main-menu {
     background-color: #202E6C;
