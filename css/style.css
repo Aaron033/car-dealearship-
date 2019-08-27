@@ -241,7 +241,9 @@ footer{
     color: #fff;
 
 } 
-
+footer h4 {
+    text-align: center;
+}
 footer  img { 
 width: 20px !important;
 }
