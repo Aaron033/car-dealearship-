@@ -245,7 +245,14 @@ footer{
 footer  img { 
 width: 20px !important;
 }
-
+.dealerInfo {
+    width: 90%;
+    margin: 0 auto;
+}
+.dealerInfo  p {
+    font-size: 12px;
+    font-weight: 200;
+}
 .icons {
     text-align: center;
 }
