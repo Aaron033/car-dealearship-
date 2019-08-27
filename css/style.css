@@ -23,6 +23,9 @@ header h1 {
 .logo-container {
     display: flex; 
     flex-direction: row;
+
+    align-items: center;
+    
 }
 .main-header-title{
     background-color: #F7F7F4;
@@ -40,6 +43,7 @@ margin: 0 auto;
 
 
 .info-dealer {
+   
     text-align: center;
     font-size: 14px;
     padding: 10px;
