@@ -22,6 +22,21 @@ header h1 {
 .main-header-title{
     background-color: #F7F7F4;
 }
+
+
+
+.logo img {
+/* display: block; */
+margin: 0 auto;
+}
+
+
+.info-dealer {
+    text-align: center;
+    font-size: 14px;
+    padding: 10px;
+}
+
 .main-menu {
     background-color: #202E6C;
     display: flex;
@@ -29,19 +44,6 @@ justify-content: space-around;
 flex-direction: row;
 padding: 10px;
 }
-
-
-.logo img {
-display: block;
-margin: 0 auto;
-}
-
-
-.info-dealer {
-    text-align: center;
-}
-
-
 .main-menu  li {
     list-style: none;
 }
