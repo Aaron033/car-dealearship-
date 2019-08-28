@@ -196,18 +196,19 @@ main img {
 .category img {
     width: 250px; 
     height: 150px; 
-    margin: 10px;
+
     
 }
 .cat1, .cat2, .cat3, .cat4 {
     position: relative;
+    margin-right: 5px;
 }
 .c1,.c2,.c3,.c4 {
     position: absolute;
  width: 100%;
  text-align: center;
     top: 10%;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.19) 
 
 }
 
