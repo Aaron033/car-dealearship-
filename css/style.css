@@ -183,6 +183,15 @@ main img {
     height: auto;
 }
 /*Dealerin  ***** ***** ***** ***** *****  *****  */
+
+hr.style-eight {
+    overflow: visible; /* For IE */
+    padding: 0;
+    border: none;
+    border-top: medium double #333;
+    color: #333;
+    text-align: center;
+}
 .dealerIn{
     margin: 20px;
 }
