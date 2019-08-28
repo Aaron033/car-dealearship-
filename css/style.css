@@ -185,12 +185,11 @@ main img {
 /*Dealerin  ***** ***** ***** ***** *****  *****  */
 
 
-/* hr.style11{
-height: 6px;
-background: url(http://ibrahimjabbari.com/images/hr-11.png) repeat-x 0 0;
-border: 0;
+ hr.style11{
+	border-top: 1px solid #8c8b8b;
+	border-bottom: 1px solid #202E6C;
 
-} */
+} 
 
 .dealerIn{
     margin: 20px;
