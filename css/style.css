@@ -183,9 +183,9 @@ main img {
     height: auto;
 }
 /*Dealerin  ***** ***** ***** ***** *****  *****  */
-
+/* 
 hr.style-eight {
-    overflow: visible; /* For IE */
+    overflow: visible; 
     padding: 0;
     border: none;
     border-top: medium double #333;
@@ -202,7 +202,14 @@ hr.style-eight:after {
     font-size: 1.5em;
     padding: 0 0.25em;
     background: white;
+} */
+hr.style11{
+height: 6px;
+background: url(http://ibrahimjabbari.com/images/hr-11.png) repeat-x 0 0;
+border: 0;
+
 }
+
 .dealerIn{
     margin: 20px;
 }
