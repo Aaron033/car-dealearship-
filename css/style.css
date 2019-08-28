@@ -183,7 +183,9 @@ main img {
     height: auto;
 }
 /*Dealerin  ***** ***** ***** ***** *****  *****  */
-
+.dealerIn{
+    margin: 20px;
+}
 
 
 /*Category  ***** ***** ***** ***** *****  *****  */
