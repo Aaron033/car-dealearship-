@@ -241,12 +241,12 @@ h3 span:first-of-type{
     height: 200px;
 }
 .cat3 {
-    background-image:url("../images /gmcSuv.jpg");
+    background-image:url("../images /nissan.jpg");
     width:200px; 
     height: 200px;
 }
 .cat4 {
-    background-image:url("../images /gmcSuv.jpg");
+    background-image:url("../images /toyotaAvalon.jpg");
     width:200px; 
     height: 200px;
 }
@@ -262,10 +262,10 @@ width: 100%;
  text-align: center;
     top: 1%;
     background-color: rgba(0, 0, 0, 0.19);
- */
+ 
 
 }
-
+*/
 @media screen and (max-width: 1200px){
     .cat1, .cat2, .cat3, .cat4 {
         width: 40%;
