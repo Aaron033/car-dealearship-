@@ -59,7 +59,10 @@ margin: 0 auto;
 .hrs {
     color: #212D6C;
 }
-
+.phoneinfo {
+    font-size: 23.5px; 
+    font-weight: 400;
+}
 .main-menu {
     background-color: #202E6C;
     display: flex;
