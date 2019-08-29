@@ -18,9 +18,12 @@ header h1 {
     text-align: center;
     color: #202D6D;
     font-size: 18px;
+    
 
 }
-
+.partgray{
+    color:gray;
+}
 .logo-container {
     display: flex; 
     flex-direction: row;
@@ -196,6 +199,14 @@ main img {
 }
 .dealerIn{
     margin: 20px;
+}
+
+.dealerIn h3 {
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+h3 span:first-of-type{
+    color: #202E6C;
 }
 
 
