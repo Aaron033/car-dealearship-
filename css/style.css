@@ -234,28 +234,6 @@ max-width: 100%;
     
 } 
 
-/* 
-.cat1 {
-    background-image: url("../images /rangerFord.jpg");
-    object-fit: cover;
-    width:150px; 
-    height: 150px;
-}
-.cat2 {
-    background-image:url("../images /gmcSuv.jpg");
-    width:150px; 
-    height: 150px;
-}
-.cat3 {
-    background-image:url("../images /nissan.jpg");
-    width:150px; 
-    height: 150px;
-}
-.cat4 {
-    background-image:url("../images /toyotaAvalon.jpg");
-    width:150px; 
-    height: 150px;
-} */
  .cat1, .cat2, .cat3, .cat4 {
     position: relative;
 max-width: 250px;
