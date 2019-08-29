@@ -190,7 +190,9 @@ main img {
 	border-bottom: 2px solid #202E6C;
 
 } 
-
+.highlight {
+    color: #A4282E; 
+}
 .dealerIn{
     margin: 20px;
 }
