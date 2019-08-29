@@ -226,9 +226,11 @@ h3 span:first-of-type{
 
 
  .category img {
-    width: 250px; 
-    height: 150px; 
+    /* width: 250px; 
+    height: 150px;  */
 
+    max-height: 100%;
+max-width: 100%;
     
 } 
 
@@ -256,7 +258,7 @@ h3 span:first-of-type{
 } */
  .cat1, .cat2, .cat3, .cat4 {
     position: relative;
-
+max-width: 250px;
     margin-right: 5px;
 } 
  .c1,.c2,.c3,.c4 {
