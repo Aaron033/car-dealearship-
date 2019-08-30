@@ -245,9 +245,6 @@ h3 span:first-of-type{
 
 
  .category img {
-    /* width: 250px; 
-    height: 150px;  */
-
     max-height: 100%;
 max-width: 100%;
     
@@ -282,6 +279,7 @@ width: 100%;
 .category > div:hover {
 
     border-color: #fff;
+  
 }
 
 
