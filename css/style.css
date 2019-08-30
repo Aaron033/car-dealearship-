@@ -70,7 +70,7 @@ justify-content: space-around;
 flex-direction: row;
 padding: 10px;
 }
-.main-menu  li {
+.main-menu  li , .searchByMake li{
     list-style: none;
 }
 .main-menu  li a {
@@ -138,9 +138,6 @@ main {
 
 }
 
-/* main > div {
-    background-color: rgba(192,193,194, 0.8)
-} */
 .subcontainer {
     display: flex;
     flex-direction: row; 
@@ -222,6 +219,7 @@ h3 span:first-of-type{
     text-transform: uppercase;
     color: #202E6C; 
 }
+
 
 
 /*Category  ***** ***** ***** ***** *****  *****  */
