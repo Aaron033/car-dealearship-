@@ -218,7 +218,9 @@ h3 span:first-of-type{
 }
 
 .searchByMake h3 {
-    text-align: center; 
+    text-align: center;
+    text-transform: uppercase;
+    color: #202E6C; 
 }
 
 
