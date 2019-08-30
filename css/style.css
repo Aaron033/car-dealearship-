@@ -238,6 +238,8 @@ max-width: 100%;
     position: relative;
 max-width: 250px;
     margin-right: 5px;
+    border-style: solid; 
+    
 } 
  .c1,.c2,.c3,.c4 {
     position: absolute;
