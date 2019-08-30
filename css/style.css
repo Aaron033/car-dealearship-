@@ -213,14 +213,19 @@ h3 span:first-of-type{
 .searchByMake{
     margin: 10px;
 }
-
+.searchByMake ul {
+    display: flex;
+    flex-direction: row;
+}
 .searchByMake h3 {
     text-align: center;
     text-transform: uppercase;
     color: #202E6C; 
 }
 
-
+.searchByMake a {
+    text-decoration: none;
+}
 
 /*Category  ***** ***** ***** ***** *****  *****  */
 .category{
@@ -308,13 +313,6 @@ width: 100%;
 
 
 }
-
-
-
-
-
-
-
 
 /*Footer code  ***** ***** ***** ***** *****  *****  */
 footer{
