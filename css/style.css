@@ -101,12 +101,21 @@ aside{
     left:20%;
     background-color: rgba(250, 250, 250, 0.5);
     height: 100%;
+  
 
 }
 .above-menu-sub-cont {
     background-color: rgba(250, 250, 250, 0.5);
     width: 90%;
     margin: 0 auto;
+    height: inherit;
+    color:#777777;
+    font-size: 17px;
+}
+.above-menu-sub-cont li a {
+    text-decoration: none;
+    padding: 12px;
+
 }
 .fill {
  
