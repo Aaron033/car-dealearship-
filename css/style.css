@@ -212,6 +212,15 @@ h3 span:first-of-type{
     color: #202E6C;
 }
 
+/*searchByMake  ***** ***** ***** ***** *****  *****  */
+.searchByMake{
+    margin: 10px;
+}
+
+.searchByMake h3 {
+    text-align: center; 
+}
+
 
 /*Category  ***** ***** ***** ***** *****  *****  */
 .category{
