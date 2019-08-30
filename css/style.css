@@ -217,8 +217,10 @@ h3 span:first-of-type{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    flex-flow: wrap;
     padding:  50px 0;
 }
+
 .searchByMake h3 {
     text-align: center;
     text-transform: uppercase;
