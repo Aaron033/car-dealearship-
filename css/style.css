@@ -278,8 +278,11 @@ width: 100%;
  
 }
 .category > div:hover {
+
     border-color: #fff;
 }
+
+
 
 @media screen and (max-width: 1200px){
     .cat1, .cat2, .cat3, .cat4 {
