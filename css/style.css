@@ -257,7 +257,7 @@ max-width: 250px;
 margin-bottom: 5px;
     margin-right: 5px;
     border-style: solid; 
-    border-color: lightgray;
+    border-color: rgba(244, 81, 30, 0.8);
     color: #fff;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -274,11 +274,17 @@ width: 100%;
  height: 20px;
  text-align: center;
     top: 1%;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(244, 81, 30, 0.8);
  
 }
 .category > div:hover {
     border-color: #fff;
+}
+.category > h6 {
+   padding-top:6px !important;
+   /* display: inline-block;
+   vertical-align: middle;
+   line-height: normal;  */
 }
 @media screen and (max-width: 1200px){
     .cat1, .cat2, .cat3, .cat4 {
