@@ -280,12 +280,7 @@ width: 100%;
 .category > div:hover {
     border-color: #fff;
 }
-.category > h6 {
-   padding-top:6px !important;
-   /* display: inline-block;
-   vertical-align: middle;
-   line-height: normal;  */
-}
+
 @media screen and (max-width: 1200px){
     .cat1, .cat2, .cat3, .cat4 {
         width: 40%;
