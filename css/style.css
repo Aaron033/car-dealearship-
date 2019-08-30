@@ -241,6 +241,8 @@ max-width: 250px;
     border-style: solid; 
     
 } 
+
+
  .c1,.c2,.c3,.c4 {
     position: absolute;
 width: 100%;
@@ -249,9 +251,10 @@ width: 100%;
     top: 1%;
     background-color: rgba(0, 0, 0, 0.19);
  
-
 }
-
+.category > div:hover {
+    border: none;
+}
 @media screen and (max-width: 1200px){
     .cat1, .cat2, .cat3, .cat4 {
         width: 40%;
