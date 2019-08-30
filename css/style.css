@@ -216,6 +216,7 @@ h3 span:first-of-type{
 .searchByMake ul {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
 }
 .searchByMake h3 {
     text-align: center;
