@@ -217,15 +217,17 @@ h3 span:first-of-type{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    padding:  50px 0;
 }
 .searchByMake h3 {
     text-align: center;
     text-transform: uppercase;
-    color: #202E6C; 
+    color: #A42A2F; 
 }
 
 .searchByMake a {
     text-decoration: none;
+    color:#111111;
 }
 
 /*Category  ***** ***** ***** ***** *****  *****  */
