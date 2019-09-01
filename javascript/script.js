@@ -13,3 +13,6 @@ function carousel() {
   setTimeout(carousel, 4000); // Change image every 2 seconds
 }
 
+function myFunction(x) {
+    x.classList.toggle("change");
+  }
