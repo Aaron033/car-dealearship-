@@ -22,13 +22,14 @@
     margin: 6px 0;
     transition: 0.4s;
   }
-
+.container-nav{
+    display: inline-block;
+    cursor: pointer;
+}
 header h1 {
     text-align: center;
     color: #202D6D;
     font-size: 18px;
-    
-
 }
 .partgray{
     color:gray;
