@@ -38,6 +38,8 @@
     -webkit-transform: rotate(45deg) translate(-8px, -8px);
     transform: rotate(45deg) translate(-8px, -8px);
   }
+
+
 header h1 {
     text-align: center;
     color: #202D6D;
@@ -100,6 +102,10 @@ padding: 10px;
     font-weight: 600;
     text-transform: uppercase;
     color: #fff;
+    
+}
+
+@media screen and (max-width: 600px){ 
     
 }
 /*container  ***** ***** ***** ***** *****  *****  */
