@@ -109,9 +109,7 @@ padding: 10px;
     .submenu li {
         display: none;
     }
-    .container-nav{
-  float:right;
-    }
+  
 }
 @media screen and (min-width: 600px){ 
    .container-nav{
