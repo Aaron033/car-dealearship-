@@ -121,6 +121,16 @@ padding: 10px;
        
 
     }
+/* .logo-container{
+    width: 100px;
+} */
+
+    .adr, .hrs{
+        font-size: .7em;
+    }
+    .phoneinfo {
+        font-size: .9em;
+    }
 
     
   
@@ -130,6 +140,8 @@ padding: 10px;
 
        display: none;
    } 
+
+   
 
   
 }
