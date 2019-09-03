@@ -1,3 +1,13 @@
+let ford = document.getElementsByClassName("ford");
+
+
+for(let i = 0; i < ford.length ++i){
+    fo += let[i] 
+    
+}
+
+
+
 var myIndex = 0;
 carousel();
 
@@ -16,3 +26,5 @@ function carousel() {
 function myFunction(x) {
     x.classList.toggle("change");
   }
+
+ 
