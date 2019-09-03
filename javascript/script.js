@@ -22,9 +22,9 @@ function myFunction(x) {
  
   let ford = document.querySelector(".ford");
 
-
+  fo = 0;
 for(let i = 0; i < ford.length; ++i){
-    fo = 0;
+  
     fo += ford[i] 
     
 }
