@@ -1,11 +1,3 @@
-let ford = document.getElementsByClassName("ford");
-
-
-for(let i = 0; i < ford.length; ++i){
-    fo += ford[i] 
-    
-}
-document.getElementsByClassName("show-ford").innerHTML = fo;
 
 
 var myIndex = 0;
@@ -28,3 +20,11 @@ function myFunction(x) {
   }
 
  
+  // let ford = document.getElementsByClassName("ford");
+
+
+// for(let i = 0; i < ford.length; ++i){
+//     fo += ford[i] 
+    
+// }
+// document.getElementsByClassName("show-ford").innerHTML = fo;
