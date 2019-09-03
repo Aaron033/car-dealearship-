@@ -20,12 +20,12 @@ function myFunction(x) {
   }
 
  
-//   let ford = document.getElementsByClassName("ford");
+  let ford = document.querySelector(".ford");
 
 
-// for(let i = 0; i < ford.length; ++i){
-//     fo = 0;
-//     fo += ford[i] 
+for(let i = 0; i < ford.length; ++i){
+    fo = 0;
+    fo += ford[i] 
     
-// }
-document.querySelector(".show-ford").innerHTML = 3;
+}
+document.querySelector(".show-ford").innerHTML = fo;
