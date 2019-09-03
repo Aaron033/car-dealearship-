@@ -1,7 +1,7 @@
 let ford = document.getElementsByClassName("ford");
 
 
-for(let i = 0; i < ford.length ++i){
+for(let i = 0; i < ford.length; ++i){
     fo += ford[i] 
     
 }
