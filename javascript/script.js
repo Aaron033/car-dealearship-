@@ -5,7 +5,7 @@ for(let i = 0; i < ford.length ++i){
     fo += let[i] 
     
 }
-
+document.getElementById("show-ford").innerHTML = fo;
 
 
 var myIndex = 0;
