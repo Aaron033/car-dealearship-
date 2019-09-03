@@ -28,4 +28,4 @@ for(let i = 0; i < ford.length; ++i){
     fo += ford[i] 
     
 }
-document.querySelector(".show-ford").innerHTML = fo;
+document.querySelector(".show-ford").innerHTML = "("+ fo + ")";
