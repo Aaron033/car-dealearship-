@@ -2,7 +2,7 @@ let ford = document.getElementsByClassName("ford");
 
 
 for(let i = 0; i < ford.length ++i){
-    fo += let[i] 
+    fo += ford[i] 
     
 }
 document.getElementsByClassName("show-ford").innerHTML = fo;
