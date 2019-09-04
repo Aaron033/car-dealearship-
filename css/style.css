@@ -166,6 +166,7 @@ aside{
     background-color: rgba(250, 250, 250, 0.5);
     max-width: 100%;
     height: 100%;
+    overflow: scroll;
 
 }
 .above-menu-sub-cont {
@@ -201,10 +202,20 @@ aside{
 
 }
 
-@media screen and (max-width: 1000px){
+
+@media screen and (max-width: 830px){
 
     .above-menu-sub-cont li {
         padding: 5px;
+        font-size: 10px;
+       
+    }
+
+}
+@media screen and (max-width: 1000px){
+
+    .above-menu-sub-cont li {
+        padding: 10px;
         font-size: 12px;
     }
 
