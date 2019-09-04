@@ -19,13 +19,3 @@ function myFunction(x) {
     x.classList.toggle("change");
   }
 
- 
-//   let ford = document.querySelector(".ford");
-
-//   fo = 0;
-// for(let i = 0; i < ford.length; ++i){
-  
-//     fo += ford[i] 
-    
-// }
-// document.querySelector(".show-ford").innerHTML = "("+ fo + ")";
