@@ -106,6 +106,7 @@ padding: 10px;
     
 }
 
+
 @media screen and (max-width: 600px){ 
     .main-menu {
         position: relative;
@@ -183,9 +184,16 @@ aside{
     color:#777777;
     font-size: 14px;
     text-transform: uppercase;
+    font-weight: bold;
 
     
 }
+
+
+/* .above-menu-sub-cont a:hover {
+    
+    background-color: #faf4f4;
+} */
 
 .above-menu-sub-cont li {
     padding: 12px;
