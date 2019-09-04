@@ -181,6 +181,12 @@ aside{
 
 }
 
+.above-menu-sub-cont ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 
 
 .above-menu-sub-cont li a {
