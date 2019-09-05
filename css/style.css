@@ -168,6 +168,10 @@ aside{
     
 }
 
+.above-menu-sub-cont li {
+    padding: 12px;
+    width: 200px;
+}
 
 .above-menu-sub-cont li a {
     text-decoration: none;
@@ -177,10 +181,6 @@ aside{
     font-weight: 600;
 }
 
-.above-menu-sub-cont li {
-    padding: 12px;
-    width: 200px;
-}
 
 
 @media screen and (max-width: 830px){
