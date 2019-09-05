@@ -171,26 +171,17 @@ aside{
 
 }
 .above-menu-sub-cont {
-
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
     background-color: rgba(250, 250, 250, 0.5);
     width: 90%;
     margin: 0 auto;
     height: inherit;
     max-width: 100%;
     height: 100%;
-   
-
 }
-
-.above-menu-sub-cont {
-
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    justify-content: center;
-    
-}
-
 
 
 .above-menu-sub-cont li a {
