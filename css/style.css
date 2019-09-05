@@ -187,9 +187,9 @@ aside{
 .above-menu-sub-cont li a {
     text-decoration: none;
     color:#777777;
-    font-size: 14px;
+    font-size: 15px;
     text-transform: uppercase;
-    font-weight: bold;
+    font-weight: 600;
     
 }
 
