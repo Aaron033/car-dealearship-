@@ -181,7 +181,10 @@ aside{
     font-weight: 600;
 }
 
-
+.above-menu-sub-cont li a:hover {
+    color: #212D6C;
+    text-shadow: 4px 4px 4px lightgray;
+}
 
 @media screen and (max-width: 830px){
 
