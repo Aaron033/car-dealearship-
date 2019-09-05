@@ -354,8 +354,7 @@ max-width: 100%;
 max-width: 250px;
 margin-bottom: 5px;
     margin-right: 5px;
-    border-style: solid; 
-    border-color: #202D6D;
+  
     color: #fff;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -368,11 +367,14 @@ width: 100%;
  text-align: center;
     top: 0%;
     background-color: #202D6D;
+    padding-top: 3px;
  
 }
 .category > div:hover {
-
-    border-color: grey;
+    -moz-box-shadow:    inset 0 0 10px #000000;
+    -webkit-box-shadow: inset 0 0 10px #000000;
+    box-shadow:         inset 0 0 10px #000000;
+   
   
 }
 @media screen and (max-width: 1200px){
