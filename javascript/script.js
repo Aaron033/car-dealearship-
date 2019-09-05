@@ -1,5 +1,3 @@
-
-
 var myIndex = 0;
 carousel();
 
@@ -17,5 +15,6 @@ function carousel() {
 
 function myFunction(x) {
     x.classList.toggle("change");
+    document.querySelector('.container-nav').classList("")
   }
 
