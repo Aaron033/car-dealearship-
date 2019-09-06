@@ -425,7 +425,9 @@ width: 100%;
    position: relative;
 
 }
-.map-locator iframe
+.map-locator iframe{
+    position: absolute;
+}
 
 
 /*Footer code  ***** ***** ***** ***** *****  *****  */
