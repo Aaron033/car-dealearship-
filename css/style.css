@@ -421,15 +421,17 @@ width: 100%;
 
 .map-locator{
    width:100%;
-   height: 0;
-   padding-bottom: 56.25%;
+  height: 100%;
+ 
+   padding-bottom:52.25%;
    position: relative;
+   overflow: hidden;
 
 }
 .map-locator iframe{
     position: absolute;
     width:100%;
-   height: 100%;
+    height: 100%;
 }
 
 
