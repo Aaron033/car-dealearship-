@@ -2,6 +2,7 @@
 @font-face {
     font-family: 'aaron'; 
     src: url(../fonts/aaron.woff2);
+     /* font-family: 'aaron'; */
     font-style: normal; 
     font-weight: 100;
 }
@@ -10,7 +11,7 @@
     margin: 0; 
     padding: 0; 
     box-sizing: border-box;
-    /* font-family: 'aaron'; */
+   
     font-family: "Open Sans",Helvetica,Arial,sans-serif;
 }
 
