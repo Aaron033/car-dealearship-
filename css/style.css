@@ -16,7 +16,9 @@
 }
 
 /* ***** *****  Header ***** ***** **********  */
-
+.main-header-title{
+    background-color: #F7F7F4;
+}
 header h1 {
     text-align: center;
     color: #202D6D;
@@ -30,10 +32,36 @@ justify-content: space-around;
 
     
 }
+.logo {
+    width: 200px;
+   
+}
+.logo img {
+
+margin: 0 auto;
+}
+
+
+.info-dealer {
+    text-align: center;
+    font-size: 14px;
+    padding: 10px;
+}
+
+.adr{
+    color: #A62B2B;
+}
+.hrs {
+    color: #212D6C;
+}
+.phoneinfo {
+    font-size: 23.5px; 
+    font-weight: 400;
+}
 
 .container-nav{
 
-    /* display: inline-block; */
+    display: inline-block;
     cursor: pointer;
 
 }
@@ -66,37 +94,6 @@ justify-content: space-around;
     color:gray;
 }
 
-.main-header-title{
-    background-color: #F7F7F4;
-}
-
-
-.logo {
-    width: 200px;
-   
-}
-.logo img {
-
-margin: 0 auto;
-}
-
-
-.info-dealer {
-    text-align: center;
-    font-size: 14px;
-    padding: 10px;
-}
-
-.adr{
-    color: #A62B2B;
-}
-.hrs {
-    color: #212D6C;
-}
-.phoneinfo {
-    font-size: 23.5px; 
-    font-weight: 400;
-}
 .main-menu {
     background-color: #202E6C;
     display: flex;
