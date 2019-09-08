@@ -126,6 +126,12 @@ padding: 10px;
     .phoneinfo {
         font-size: .9em;
     }
+    /* .tabs{
+
+        display: flex;  
+        flex-direction: column;
+        
+        } */
 }
 @media screen and (min-width: 600px){ 
     .container-nav{
