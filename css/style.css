@@ -114,17 +114,21 @@ padding: 10px;
     text-transform: uppercase;
     color: #fff;   
 }
+
+#toggle {
+    display: none;
+}
 @media screen and (max-width: 600px){ 
     .main-menu {
         position: relative;
         height: 45px;
 
     }
-    /* .submenu li {
-        display: none;
-    } */
+   
+.link-menu {
 
-    
+}
+
     .container-nav{
         width: 100%;
     }
