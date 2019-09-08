@@ -421,6 +421,7 @@ width: 100%;
 .location-map {
     text-align: center;
     font-size: 20px;
+    font-weight: bold;
 }
 .map-ad{
     width: 100%;
