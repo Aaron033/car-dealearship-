@@ -417,10 +417,12 @@ width: 100%;
 
 
 }
-.m{
+/*map  ***** ***** ***** ***** *****  *****  */
+.map-ad{
     width: 100%;
-    max-height: 300px;
+    max-height: 310px;
     overflow: hidden;
+    margin-bottom: 10px;
 }
 .map-locator{
    width:100%;
