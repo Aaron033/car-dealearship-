@@ -119,21 +119,21 @@ padding: 10px;
     display: none;
 }
 @media screen and (max-width: 600px){ 
-    /* .main-menu {
-        position: relative;
-        height: 45px;
+    .main-menu {
+        /* position: relative; */
+        /* height: 45px; */
+        padding: 0;
 
-    } */
+    }
    
 .link-menu ul {
-text-align: center;
+    width: 100%;
+/* text-align: center; */
 /* width: 100%; */
-display: flex !important;
+display: flex;
 flex-direction: column;
 }
-/* .link-menu a {
-    display: block;
-} */
+
 
     /* .container-nav{
         width: 100%;
