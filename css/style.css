@@ -119,19 +119,25 @@ padding: 10px;
     display: none;
 }
 @media screen and (max-width: 600px){ 
-    .main-menu {
+    /* .main-menu {
         position: relative;
         height: 45px;
 
-    }
+    } */
    
 .link-menu {
-
+text-align: center;
+/* width: 100%; */
+display: flex !important;
+flex-direction: column;
 }
+/* .link-menu a {
+    display: block;
+} */
 
-    .container-nav{
+    /* .container-nav{
         width: 100%;
-    }
+    } */
     .adr, .hrs{
         font-size: .7em;
     }
