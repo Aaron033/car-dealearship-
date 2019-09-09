@@ -125,7 +125,7 @@ padding: 10px;
 
     } */
    
-.link-menu {
+.link-menu ul {
 text-align: center;
 /* width: 100%; */
 display: flex !important;
