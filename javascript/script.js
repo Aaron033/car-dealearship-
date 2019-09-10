@@ -15,11 +15,11 @@ function carousel() {
 
 function myFunction(x) {
     x.classList.toggle("change");
-    document.querySelector('.container-nav').classList("")
+    document.querySelector('.container-nav');
   }
 
-  document.querySelector(".container-nav").addEventListener("click", displayDate);
+  document.querySelector(".container-nav").addEventListener("click", showMenu);
 
   function showMenu() {
-    document.querySelector(".menutab").style.display = value;
+    document.querySelector(".menutab").style.display = "";
   }
