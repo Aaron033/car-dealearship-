@@ -142,9 +142,6 @@ padding: 5px;
     display: none;
 } 
 
-#toggle:checked  + .link-menu li{
-    display: inline-block;
-}
 
 
     .adr, .hrs{
