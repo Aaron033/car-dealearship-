@@ -18,3 +18,8 @@ function myFunction(x) {
     document.querySelector('.container-nav').classList("")
   }
 
+  document.querySelector(".container-nav").addEventListener("click", displayDate);
+
+  function showMenu() {
+    document.querySelector(".menutab").style.display = value;
+  }

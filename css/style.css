@@ -138,11 +138,9 @@ padding: 5px;
     font-size: 14px;
    
 }
-.link-menu li {
+.menutab  {
     display: none;
 } 
-
-
 
     .adr, .hrs{
         font-size: .7em;
