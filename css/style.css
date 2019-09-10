@@ -132,9 +132,7 @@ float:right;
 
    } 
 .main-menu  ul li{
-
 padding: 5px;
-
 }
     .adr, .hrs{
         font-size: .7em;
@@ -188,7 +186,7 @@ aside{
 
 .above-menu-sub-cont li {
     padding: 12px;
-    /* width: 200px; */
+   
 }
 
 .above-menu-sub-cont li a {
