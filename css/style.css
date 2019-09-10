@@ -143,7 +143,7 @@ padding: 5px;
 } 
 
 #toggle:checked  + .link-menu li{
-    display: block;
+    display: inline-block;
 }
 
 
