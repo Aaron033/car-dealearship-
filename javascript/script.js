@@ -21,5 +21,5 @@ function myFunction(x) {
   document.querySelector(".container-nav").addEventListener("click", showMenu);
 
   function showMenu() {
-    document.querySelector(".menutab").style.display = "";
+    document.querySelector(".menutab").style.removeProperty('display');
   }
