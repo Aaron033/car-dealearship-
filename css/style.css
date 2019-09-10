@@ -125,20 +125,26 @@ padding: 10px;
         flex-direction: column;
         align-items: center;
         margin-top:30px;
-        
     }
     .container-nav {
 float:right;
-
    } 
+
 .main-menu  ul li{
 padding: 5px;
 
 }
 .link-menu a {
     font-size: 14px;
+   
 }
+.link-menu li {
+    display: none;
+} 
 
+#toggle:checked  + .link-menu li{
+    display: block;
+}
 
 
     .adr, .hrs{
