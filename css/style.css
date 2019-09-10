@@ -61,7 +61,7 @@ margin: 0 auto;
 
 .container-nav{
 
-    display: inline-block;
+    /* display: inline-block; */
     cursor: pointer;
 
 }
@@ -120,15 +120,17 @@ padding: 10px;
 }
 @media screen and (max-width: 600px){ 
     .main-menu  ul {
-        
-       
+
         display: flex;
         flex-direction: column;
-       
         align-items: center;
+        margin-top:30px;
         
     }
-   
+    .container-nav {
+float:right;
+
+   } 
 .main-menu  ul li{
     /* width: 100%; */
 /* text-align: center; */
