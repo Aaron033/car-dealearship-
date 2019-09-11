@@ -20,4 +20,11 @@ function myFunction(x) {
 
 
 
-  
+  function showNav() {
+    var x = document.querySelector("menutab");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
+  }
