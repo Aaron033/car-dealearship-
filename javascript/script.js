@@ -18,8 +18,9 @@ function myFunction(x) {
     document.querySelector('.container-nav');
   }
 
-  document.querySelector(".container-nav").addEventListener("click", showMenu);
 
-  function showMenu() {
-    document.querySelector(".menutab").style.removeProperty('display');
-  }
+
+  
+function showTabs() {
+    let element = document.querySelector()
+}
