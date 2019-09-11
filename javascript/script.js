@@ -21,6 +21,3 @@ function myFunction(x) {
 
 
   
-// function showTabs() {
-//     let element = document.querySelector()
-// }
