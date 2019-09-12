@@ -19,5 +19,11 @@ document.querySelector( "#nav-toggle" )
     this.classList.toggle( "active" );
   });
 
+document.querySelector("#nav-toggle").addEventListener("click", menuNav);
+
+function menuNav() {
+  document.querySelector("tabs").style.height = "300px";
+}
+
 
 
