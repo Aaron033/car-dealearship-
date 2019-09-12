@@ -13,10 +13,6 @@ function carousel() {
   setTimeout(carousel, 4000); 
 }
 
-// function myFunction(x) {
-//     x.classList.toggle("change");
-//     document.querySelector('.container-nav');
-//   }
 
 document.querySelector( "#nav-toggle" )
   .addEventListener( "click", function() {
@@ -25,11 +21,11 @@ document.querySelector( "#nav-toggle" )
 
 
 
-  function showNav() {
-    var x = document.querySelectorAll(".menutab");
-    if (x.style.display === "none") {
-      x.style.display = "block";
-    } else {
-      x.style.display = "none";
-    }
-  }
+  // function showNav() {
+  //   var x = document.querySelectorAll(".menutab");
+  //   if (x.style.display === "none") {
+  //     x.style.display = "block";
+  //   } else {
+  //     x.style.display = "none";
+  //   }
+  // }
