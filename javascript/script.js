@@ -13,16 +13,16 @@ function carousel() {
   setTimeout(carousel, 4000); 
 }
 
-function myFunction(x) {
-    x.classList.toggle("change");
-    document.querySelector('.container-nav');
-  }
+// function myFunction(x) {
+//     x.classList.toggle("change");
+//     document.querySelector('.container-nav');
+//   }
 
 
 
 
   function showNav() {
-    var x = document.querySelector(".menutab");
+    var x = document.querySelectorAll(".menutab");
     if (x.style.display === "none") {
       x.style.display = "block";
     } else {

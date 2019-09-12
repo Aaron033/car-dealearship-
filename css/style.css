@@ -133,8 +133,8 @@ padding: 5px;
     font-size: 14px;
    
 }
-.menutab  {
-    display: none;
+.tabs ul {
+   transform: translate(100%);
   
 
 } 
