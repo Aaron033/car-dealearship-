@@ -22,7 +22,11 @@ document.querySelector( "#nav-toggle" )
 document.querySelector("#nav-toggle").addEventListener("click", menuNav);
 
 function menuNav() {
-  document.querySelector("tabs").style.height = "300px";
+  if(  document.querySelector(".tabs").style.height = "45px")
+  document.querySelector(".tabs").style.height = "200px";
+  else{
+    document.querySelector(".tabs").style.height = "45px"
+  }
 }
 
 
