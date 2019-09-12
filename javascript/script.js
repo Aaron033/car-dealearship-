@@ -28,3 +28,6 @@ function menuNav() {
 
 
 
+onclick = function() {
+  if()
+}
