@@ -60,18 +60,17 @@ margin: 0 auto;
 }
 
 
-
-  #nav-toggle {
+ 
+   #nav-toggle {
       
-       left: 50%; 
-       top: 50%; 
-    }
+       float:right;
+    } 
 
   #nav-toggle { cursor: pointer; padding: 10px 35px 16px 0px; }
   #nav-toggle span, #nav-toggle span:before, #nav-toggle span:after {
     cursor: pointer;
     border-radius: 1px;
-    height: 5px;
+    height: 4px;
     width: 35px;
     background: white;
     position: absolute;
@@ -110,6 +109,7 @@ margin: 0 auto;
 .main-menu {
     background-color: #202E6C;
 padding: 10px;
+
 }
 
 .main-menu ul {
@@ -129,6 +129,9 @@ padding: 10px;
 }
 
 @media screen and (max-width: 600px){ 
+    .tabs{
+        height: 60px;
+    }
     .main-menu  ul {
 
         display: flex;
