@@ -13,10 +13,10 @@ function carousel() {
   setTimeout(carousel, 4000); 
 }
 
-// function myFunction(x) {
-//     x.classList.toggle("change");
-//     document.querySelector('.container-nav');
-//   }
+function myFunction(x) {
+    x.classList.toggle("change");
+    document.querySelector('.container-nav');
+  }
 
 
 
