@@ -28,8 +28,8 @@ function menuNav() {
 
 let navBar = document.querySelector("#nav-toggle");
 
-onclick = function() {
-  if(navBar.className == "open") {
-   navBar.className
-  }
-}
+// onclick = function() {
+//   if(navBar.className == "open") {
+//    navBar.className
+//   }
+// }
