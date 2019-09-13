@@ -133,7 +133,7 @@ padding: 10px;
         height: 45px;
     }
 
-    #naviga.open{
+    .tabs.open{
         max-height: 200px;
         transition: max-height 0.7s;
 

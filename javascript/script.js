@@ -30,7 +30,14 @@ let navBar = document.querySelector("#nav-toggle");
 
 navBar.onclick = function(){
 
-  if(content.className == )
+  if(content.className == "open" ){
+ 
+  }else{
+    //Expand the box 
+    content.className = "open"
+  }
+
+
 }
 
 // onclick = function() {
