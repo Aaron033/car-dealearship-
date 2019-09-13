@@ -21,10 +21,10 @@ document.querySelector( "#nav-toggle" )
 
 document.querySelector("#nav-toggle").addEventListener("click", menuNav);
 
-function menuNav() {
-  document.querySelector(".tabs").style.height = "200px";
+// function menuNav() {
+//   document.querySelector(".tabs").style.height = "200px";
   
-}
+// }
 
 let navBar = document.querySelector("#nav-toggle");
 
