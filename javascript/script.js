@@ -15,29 +15,21 @@ function carousel() {
 
 
 
-var slideIndex = 1;
-showDivs(slideIndex);
-
-function plusDivs(n) {
-  showDivs(slideIndex += n);
-}
-
-function currentDiv(n) {
-  showDivs(slideIndex = n);
-}
 
 
+$(document).ready(function() {
+  x= 0 ; 
 
-function showDivs(n) {
-  let i ; 
-  let x = document.getElementsByClassName("slide"); 
- if(n > x.length) {
-   slideIndex = 1
- }
+  $('.btn-next').click(function(){
+    x = (x<=300)?(x+100):0; 
+    $('slide').css('left', -x+"%"); 
+  })
 
- if (n < 1) {
-   slideIndex = x.length
- }
- x[slideIndex-1].style.display = "block"; 
- 
-}
+
+
+  $('.btn-prev').click(function(){
+    x = (x>=100)?(x-100):400; 
+    $('slide').css('left', -x+"%"); 
+  })
+
+})
