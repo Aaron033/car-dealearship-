@@ -12,8 +12,10 @@ function changeImg() {
 
     if(i < images.length - 1) {
         i++; 
+        //if the image is less than the array 
     }else {
         i = 0; 
+        //if the image is greater than the array it will be back to 0 
     }
     setTimeout("changeImg()", time);
 }

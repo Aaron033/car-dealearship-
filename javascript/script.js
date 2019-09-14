@@ -14,17 +14,6 @@ function carousel() {
 }
 
 
-// document.querySelector( "#nav-toggle" )
-//   .addEventListener( "click", function() {
-//     this.classList.toggle( "active" );
-//   });
-
-// document.querySelector("#nav-toggle").addEventListener("click", menuNav);
-
-// function menuNav() {
-//   document.querySelector(".tabs").style.height = "200px";
-  
-// }
 let content = document.querySelector('.tabs'); 
 let navBar = document.querySelector("#nav-toggle");
 
@@ -39,9 +28,3 @@ navBar.onclick = function(){
 
 
 }
-
-// onclick = function() {
-//   if(navBar.className == "open") {
-//    navBar.className
-//   }
-// }
