@@ -22,14 +22,14 @@ $(document).ready(function() {
 
   $('.btn-next').click(function(){
     x = (x<=300)?(x+100):0; 
-    $('slide').css('left', -x+"%"); 
+    $('subcontainer').css('left', -x+"%"); 
   })
 
 
 
   $('.btn-prev').click(function(){
     x = (x>=100)?(x-100):400; 
-    $('slide').css('left', -x+"%"); 
+    $('subcontainer').css('left', -x+"%"); 
   })
 
 })
