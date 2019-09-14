@@ -290,7 +290,7 @@ main {
     padding: 30px;
 text-transform: uppercase;
 }
-.disp-0 button {
+.all {
 background-color: #f4511e; 
 border: none; 
 color: white; 
@@ -306,6 +306,11 @@ cursor: pointer;
 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.previous, .next{
+    margin-top:10px;
+    height: 30px ;
+    width: 30px ; 
+}
 .disp-0 button:hover {opacity: 1}
 
 .disp-0,.disp-1,.disp-2,.disp-3, .disp-4,  .disp-5, .disp-6 {
