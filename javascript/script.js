@@ -14,17 +14,35 @@ function carousel() {
 }
 
 
-let content = document.querySelector('.tabs'); 
-let navBar = document.querySelector("#nav-toggle");
+// let content = document.querySelector('.tabs'); 
+// let navBar = document.querySelector("#nav-toggle");
 
-navBar.onclick = function(){
+// navBar.onclick = function(){
 
-  if(content.className == "open" ){
- content.className= "";
-  }else{
-    //Expand the box 
-    content.className = "open"
-  }
+//   if(content.className == "open" ){
+//  content.className= "";
+//   }else{
+//     //Expand the box 
+//     content.className = "open"
+//   }
 
 
+// }
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
+
+
+function showDivs(n) {
+  let i ; 
+  let x = document.getElementsByClassName("slide"); 
+  let dots = do
 }
