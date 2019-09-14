@@ -44,5 +44,13 @@ function currentDiv(n) {
 function showDivs(n) {
   let i ; 
   let x = document.getElementsByClassName("slide"); 
-  let dots = do
+ if(n > x.length) {
+   slideIndex = 1
+ }
+
+ if (n < 1) {
+   slideIndex = x.length
+ }
+ x[slideIndex-1].style.display = "block"; 
+ 
 }
