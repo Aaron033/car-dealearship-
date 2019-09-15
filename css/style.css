@@ -66,7 +66,9 @@ margin: 0 auto;
        float:right;
     } 
 
-  #nav-toggle { cursor: pointer; padding: 10px 35px 16px 0px; }
+  #nav-toggle {
+       cursor: pointer; padding: 10px 35px 16px 0px;
+     }
   #nav-toggle span, #nav-toggle span:before, #nav-toggle span:after {
     cursor: pointer;
     border-radius: 1px;
@@ -272,7 +274,6 @@ margin: 0 auto;
 }}
 /*main code  ***** ***** ***** ***** *****  *****  */
 main {
-   
     display: flex;
     flex-direction: row; 
     overflow: hidden;
@@ -314,7 +315,7 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .previous, .next{
-    background-color: #eb6a43; 
+    background-color: #eb6a43 ; 
     color:#fff;
     margin-top:10px;
     height: 25px ;
@@ -348,7 +349,7 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 main img {
    
-    max-width: 250px;
+    max-width: 240px;
     height: auto;
 }
 
