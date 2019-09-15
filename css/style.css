@@ -275,6 +275,7 @@ main {
    
     display: flex;
     flex-direction: row; 
+    overflow: hidden;
 
 }
 
@@ -340,6 +341,13 @@ main img {
    
     max-width: 250px;
     height: auto;
+}
+
+.disp-0 {
+    z-index: 1;
+}
+.slide {
+    z-index: -1;
 }
 /*Dealerin  ***** ***** ***** ***** *****  *****  */
 
