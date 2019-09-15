@@ -33,5 +33,5 @@ carouselSlide.style.transform = 'translateX(' +(-size + 246 * counter) + 'px)';
 nextBtn.addEventListener('click', () => {
   carouselSlide.style.transition ='translateX(' + (-size * counter) + 'px)';
   counter++; 
-  console.log(counter)
+ carouselSlide.style.transform = 'translateX(' +(-size  + 246 * counter)+'px)';
 })
