@@ -292,6 +292,7 @@ main {
   width: inherit;
     height: auto;
     padding: 30px;
+    
 text-transform: uppercase;
 position: relative;
 }
@@ -313,8 +314,6 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .previous, .next{
-   
-
     background-color: #eb6a43; 
     color:#fff;
     margin-top:10px;
@@ -322,9 +321,19 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     width: 25px ; 
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+.disp-0 {
+    z-index: 1;
+}
+.slide {
+    z-index: -1;
+}
+.disp-0 {
+    margin:0;
+    background-color: #E9E9E9;
+}
 .disp-0 button:hover {opacity: 1}
 
-.disp-0,.disp-1,.disp-2,.disp-3, .disp-4,  .disp-5, .disp-6 {
+.disp-1,.disp-2,.disp-3, .disp-4,  .disp-5, .disp-6 {
     margin: 5px;
     background-color: #E9E9E9;
 }
@@ -343,12 +352,7 @@ main img {
     height: auto;
 }
 
-.disp-0 {
-    z-index: 1;
-}
-.slide {
-    z-index: -1;
-}
+
 /*Dealerin  ***** ***** ***** ***** *****  *****  */
 
 
