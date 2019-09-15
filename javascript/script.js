@@ -25,5 +25,13 @@ const nextBtn = document.querySelector('.btn-next');
 let counter = 1; 
 const size = carouseldiv[0].clientWidth; 
 
-console.log(size)
+
 carouselSlide.style.transform = 'translateX(' +(-size + 246 * counter) + 'px)'; 
+
+//Button listeners
+
+nextBtn.addEventListener('click', () => {
+  carouselSlide.style.transition ='translateX(' + (-size * counter) + 'px)';
+  counter++; 
+  console.log(counter)
+})
