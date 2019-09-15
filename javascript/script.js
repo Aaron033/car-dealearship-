@@ -15,4 +15,11 @@ function carousel() {
 
 
 
-const carouselSlide = document.querySelector(".subcontainer")
+const carouselSlide = document.querySelector('.subcontainer'); 
+const carouseldiv = document.querySelectorAll('.slide'); 
+
+const prevBtn = document.querySelector('.btn-prev');
+const nextBtn = document.querySelector('.btn-next');
+
+//We start from the first image 
+let counter = 1; 
