@@ -35,3 +35,19 @@ nextBtn.addEventListener('click', () => {
   counter++; 
  carouselSlide.style.transform = 'translateX(' +(-size  + 246 * counter)+'px)';
 })
+
+
+prevBtn.addEventListener('click', () => {
+  carouselSlide.style.transition ='translateX(' + (-size * counter) + 'px)';
+  counter--; 
+ carouselSlide.style.transform = 'translateX(' +(-size  - 246 * counter)+'px)';
+})
+
+carouselSlide.addEventListener('transitionend', () => {
+  console.log(carouseldiv[counter].id === 'lastClone'){
+    
+    counter = carouseldiv.length -2 ;
+    carouselSlide.style.transform = 'translateX(' +(-size  + 246 * counter)+'px)';
+  }
+
+})
