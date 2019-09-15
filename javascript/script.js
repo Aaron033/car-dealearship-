@@ -23,3 +23,6 @@ const nextBtn = document.querySelector('.btn-next');
 
 //We start from the first image 
 let counter = 1; 
+const size = carouselSlide[0].clientWidth; 
+
+carouselSlide.style.transform = 'translateX(' +(-size * counter)
