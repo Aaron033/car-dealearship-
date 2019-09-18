@@ -29,8 +29,6 @@ header h1 {
     flex-direction: row;
 justify-content: space-around;
     align-items: center;
-
-    
 }
 .logo {
     width: 200px;
@@ -60,7 +58,9 @@ margin: 0 auto;
 }
 
 
- 
+ .tabs{
+
+ }
  
 
 
@@ -92,15 +92,7 @@ padding: 10px;
 }
 
 @media screen and (max-width: 600px){ 
-    .tabs{
-        height: 45px;
-    }
-
-     .tabs.open{
-        max-height: 200px;
-        transition: max-height 0.7s;
-
-    } 
+ 
     
     .main-menu  ul {
 
