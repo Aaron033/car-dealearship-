@@ -61,46 +61,7 @@ margin: 0 auto;
 
 
  
-   #nav-toggle {
-      
-       float:right;
-    } 
-
-  #nav-toggle {
-       cursor: pointer; padding: 10px 35px 16px 0px;
-     }
-  #nav-toggle span, #nav-toggle span:before, #nav-toggle span:after {
-    cursor: pointer;
-    border-radius: 1px;
-    height: 4px;
-    width: 35px;
-    background: white;
-    position: absolute;
-    display: block;
-    content: '';
-  }
-  #nav-toggle span:before {
-    top: -10px; 
-  }
-  #nav-toggle span:after {
-    bottom: -10px;
-  }
-  
-  #nav-toggle span, #nav-toggle span:before, #nav-toggle span:after {
-    transition: all 500ms ease-in-out;
-  }
-  #nav-toggle.active span {
-    background-color: transparent;
-  }
-  #nav-toggle.active span:before, #nav-toggle.active span:after {
-    top: 0;
-  }
-  #nav-toggle.active span:before {
-    transform: rotate(45deg);
-  }
-  #nav-toggle.active span:after {
-    transform: rotate(-45deg);
-  }
+ 
 
 
 
@@ -271,7 +232,9 @@ margin: 0 auto;
   width: 100%;
   height: auto;
 
-}}
+}
+
+}
 /*main code  ***** ***** ***** ***** *****  *****  */
 main {
     display: flex;
@@ -293,7 +256,6 @@ main {
   width: inherit;
     height: auto;
     padding: 30px;
-    
 text-transform: uppercase;
 position: relative;
 }
@@ -314,7 +276,7 @@ cursor: pointer;
 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.previous, .next{
+.btn-prev, .btn-next{
     background-color: #eb6a43 ; 
     color:#fff;
     margin-top:10px;
@@ -332,7 +294,9 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin:0;
     background-color: #E9E9E9;
 }
-.disp-0 button:hover {opacity: 1}
+.disp-0 button:hover {
+    opacity: 1
+}
 
 .disp-1,.disp-2,.disp-3, .disp-4,  .disp-5, .disp-6 {
     margin: 5px;
@@ -440,7 +404,7 @@ width: 100%;
 }
 
 .category > div:hover {
-    box-shadow:         3px 3px 2px 4px #000; 
+    box-shadow: 3px 3px 2px 4px #000; 
    
   
 }
@@ -456,7 +420,8 @@ width: 100%;
 @media screen and (max-width: 600px){
     .cat1, .cat2, .cat3, .cat4 {
         width: 90%;
-    }}
+    }
+}
 
  @media screen and (max-width: 320px){
         .cat1, .cat2, .cat3, .cat4 {
