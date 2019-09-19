@@ -57,7 +57,9 @@ margin: 0 auto;
     font-weight: 400;
 }
 
-
+.container{
+    background-color: #202E6C !important;
+}
 
 .partgray{
     color:gray;
@@ -102,7 +104,7 @@ padding: 5px;
  
 }
 /*container  ***** ***** ***** ***** *****  *****  */
-.container {
+.containerr {
     width: 80%;
     background-color:#F4F3F5;
 margin: 0 auto;
