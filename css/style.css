@@ -209,28 +209,28 @@ margin: 0 auto;
 
 }
 /*main code  ***** ***** ***** ***** *****  *****  */
-main {
+
+.main-display{
     display: flex;
     flex-direction: row; 
     overflow: hidden;
-
 }
-
 .subcontainer {
-    display: flex;
+    display: flex ; 
     flex-direction: row; 
     overflow: auto; 
     overflow-y: hidden;
 }
 .disp-0 {
-    display: flex; 
+    display: flex ; 
     flex-direction: column;
     text-align: center;
   width: inherit;
     height: auto;
-    padding: 30px;
+    padding: 10px;
+
 text-transform: uppercase;
-position: relative;
+
 }
 .all {
   
