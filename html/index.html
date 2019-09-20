@@ -10,7 +10,7 @@
     <link rel="shortcut icon" type="image/png" href="../icons/icons8-car-rental-16.png">
     <link href="https://fonts.googleapis.com/css?family=Noto+Serif:400,700&display=swap" rel="stylesheet">
   
-    <link rel="stylesheet" href="../css/bootstrap.css">
+  
 </head>
 <body>
  
@@ -33,32 +33,56 @@
 
 </div>
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-
-        <a  class= "navbar-brand" href="#">Aaron's Auto Sales</a>
-
-<button class = "navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
-<span class="navbar-toggler-icon"></span>
-
-</button>
-
-    <div class = "collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class ="navbar-nav ml-auto">
-            <li class= "nav-item">
-                <a  class="nav-link"href="">Home</a>
-            </li>
-            <li class= "nav-item">
-                    <a  class="nav-link"href="">Inventory</a>
-                </li>
-                <li class= "nav-item">
-                        <a  class="nav-link"href="">Car finder</a>
-                    </li>
-                    <li class= "nav-item">
-                            <a  class="nav-link"href="">Directions</a>
-                        </li>
-        </ul>
+<nav class="navbar" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a class="navbar-item">
+ Aaron Botello
+      </a>
+  
+      <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
     </div>
-</nav>
+  
+    <div id="navbarBasicExample" class="navbar-menu">
+      <div class="navbar-start">
+        <a class="navbar-item is-active">
+          Home
+        </a>
+  
+        <a class="navbar-item">
+          Documentation
+        </a>
+  
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link">
+            More
+          </a>
+  
+          <div class="navbar-dropdown">
+            <a class="navbar-item">
+              About
+            </a>
+            <a class="navbar-item">
+              Jobs
+            </a>
+            <a class="navbar-item">
+              Contact
+            </a>
+            <hr class="navbar-divider">
+            <a class="navbar-item">
+              Report an issue
+            </a>
+          </div>
+        </div>
+      </div>
+  
+ 
+    </div>
+  </nav>
+
 
 
     </header>
@@ -228,101 +252,21 @@
 </div>
   
 </div>
-
-<footer class="page-footer font-small indigo">
-
-    <!-- Footer Links -->
-    <div class="container">
-  
-      <!-- Grid row-->
-      <div class="row text-center d-flex justify-content-center pt-5 mb-3">
-  
-        <!-- Grid column -->
-        <div class="col-md-2 mb-3">
-          <h6 class="text-uppercase font-weight-bold">
-            <a href="#!">About us</a>
-          </h6>
-        </div>
-        <!-- Grid column -->
-  
-        <!-- Grid column -->
-        <div class="col-md-2 mb-3">
-          <h6 class="text-uppercase font-weight-bold">
-            <a href="#!">Products</a>
-          </h6>
-        </div>
-        <!-- Grid column -->
-  
-        <!-- Grid column -->
-        <div class="col-md-2 mb-3">
-          <h6 class="text-uppercase font-weight-bold">
-            <a href="#!">Awards</a>
-          </h6>
-        </div>
-        <!-- Grid column -->
-  
-        <!-- Grid column -->
-        <div class="col-md-2 mb-3">
-          <h6 class="text-uppercase font-weight-bold">
-            <a href="#!">Help</a>
-          </h6>
-        </div>
-        <!-- Grid column -->
-  
-        <!-- Grid column -->
-        <div class="col-md-2 mb-3">
-          <h6 class="text-uppercase font-weight-bold">
-            <a href="#!">Contact</a>
-          </h6>
-        </div>
-        <!-- Grid column -->
-  
-      </div>
-      <!-- Grid row-->
-      <hr class="rgba-white-light" style="margin: 0 15%;">
-  
-      <!-- Grid row-->
-      <div class="row d-flex text-center justify-content-center mb-md-0 mb-4">
-  
-        <!-- Grid column -->
-        <div class="col-md-8 col-12 mt-5">
-          <p style="line-height: 1.7rem">Aaron's Auto Sales offers car buyers competitively priced vehicles and service with a smile. Their friendly and experienced staff will help you find a vehicle that fits your budget and lifestyle. Call (832) 330-4340 today to schedule a test drive!</p>
-        </div>
-        <!-- Grid column -->
-  
-      </div>
-      <!-- Grid row-->
-      <hr class="clearfix d-md-none rgba-white-light" style="margin: 10% 15% 5%;">
-  
-      <!-- Grid row-->
-      <div class="row pb-3">
-  
-
-  
-       
-  
-        </div>
-        <!-- Grid column -->
-  
-      </div>
-      <!-- Grid row-->
-  
+<footer class="footer">
+    <div class="content has-text-centered">
+      <p>
+        <strong>Bulma</strong> by <a href="https://jgthms.com">Jeremy Thomas</a>. The source code is licensed
+        <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content
+        is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
+      </p>
     </div>
-    <!-- Footer Links -->
-  
-    <!-- Copyright -->
-    <div class="footer-copyright text-center py-3">© 2018 Copyright:
-      <a href="https://mdbootstrap.com/education/bootstrap/"> MDBootstrap.com</a>
-    </div>
-    <!-- Copyright -->
-  
   </footer>
-  <!-- Footer -->
-            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-            <script   src="https://code.jquery.com/jquery-3.4.1.min.js"  crossorigin="anonymous"></script>
-        <script src="../javascript/script.js"></script>    
+
+  <link rel="stylesheet" href="../node_modules/bulma/css/bulma.css">
+
+  <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+  <script src="../javascript/script.js"></script>
+        <script src="../javascript/subcode.js"></script>    
 </body>
 
 </html>
