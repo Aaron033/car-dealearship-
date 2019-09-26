@@ -1,6 +1,18 @@
+
+section{
+    width: 300px;
+
+    
+    overflow: auto;
+    padding-bottom: 180px;
+}
+
+
 footer{
-    position:absolute;
-    bottom: 0;
+    position: relative;
+    clear: both;
+
+    margin-top: -180px;
     width: 100%;
     background-color: coral !important;
 }
